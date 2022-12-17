@@ -1,23 +1,14 @@
-# Sample Project
-Change `sample` to the respective project name in
-* filename of .yml file
-* environment name in .yml-file
-* in the commands below
+# Credit4You
 ## Setup Environment
 ```sh
-$ conda install -f sample.yml
+$ conda install -f c4y.yml
 ```
 ## Update Environment from File
 ```sh
-$ conda env update --name sample --file sample.yml --prune
+$ conda env update --name sample --file c4y.yml --prune
 ```
-`prune` uninstalls dependencies which were removed from sample.yml
-
 ## Use Environment
 before working on the project always make sure you have the environment activated:
 ```sh
-$ conda activate sample
+$ conda activate c4y
 ```
-## Additional Information
-See "About Readmes" on Github
-https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes
