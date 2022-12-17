@@ -1,21 +1,18 @@
-name: sample
+name: c4y
 channels:
   - anaconda
   - conda-forge
   - defaults
 dependencies:
   - bokeh
-  - ipykernel
-  - ipympl
-  - ipywidgets
   - jupyterlab
-  - ffmpeg
   - pandas
   - pandas-profiling
-  - python=3.8
+  - python=3.10
   - scikit-learn
   - scikit-plot
   - seaborn
+  - streamlit
   - pip
   - pip:
-      - PyMuPDF==1.19.6
+      - streamlit==1.16.0
