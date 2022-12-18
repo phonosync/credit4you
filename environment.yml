@@ -5,6 +5,7 @@ channels:
   - defaults
 dependencies:
   - bokeh
+  - joblib
   - jupyterlab
   - pandas
   - pandas-profiling
