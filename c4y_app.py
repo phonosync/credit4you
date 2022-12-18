@@ -7,7 +7,7 @@ import joblib
 st.title('Credit 4 You')
 st.write('Demo-App zur Evaluation des Klassifikationsalgorithmus zur Risikobeurteilung von Konsumkrediten')
 
-PATH_MODEL = os.path.join('models', 'clf.joblib')
+PATH_MODEL = os.path.join('models', 'clfn.joblib')
 
 @st.cache
 def load_model(path_model):
