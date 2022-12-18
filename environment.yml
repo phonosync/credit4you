@@ -2,4 +2,5 @@ name: c4y
 channels:
   - anaconda
 dependencies:
+  - python=3.10
   - scikit-learn=1.0.2
