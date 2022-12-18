@@ -4,16 +4,11 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - bokeh
-  - joblib
+  - joblib=1.0.1
   - jupyterlab
   - pandas
-  - pandas-profiling
   - python=3.10
   - scikit-learn
-  - scikit-plot
-  - seaborn
-  - streamlit
   - pip
   - pip:
       - streamlit==1.16.0
