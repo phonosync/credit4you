@@ -1,10 +1,7 @@
 name: c4y
 channels:
   - anaconda
-  - conda-forge
-  - defaults
 dependencies:
-  - jupyterlab
   - pandas
   - python=3.9
   - scikit-learn
