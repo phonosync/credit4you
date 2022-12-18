@@ -8,7 +8,7 @@ dependencies:
   - jupyterlab
   - pandas
   - python=3.10
-  - scikit-learn
+  - scikit-learn=1.0.2
   - pip
   - pip:
       - streamlit==1.16.0
