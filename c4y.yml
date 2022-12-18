@@ -1,0 +1,15 @@
+name: c4y
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - joblib=1.0.1
+  - jupyterlab
+  - pandas
+  - python=3.10
+  - scikit-learn
+  - pip
+  - pip:
+      - streamlit==1.16.0
+      - python-dotenv==0.21.0
